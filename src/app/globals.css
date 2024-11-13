@@ -5,14 +5,50 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #795AFC;
+  --primary-1: #8266fd;
+  --primary-2: #8d74fd;
+  --primary-3: #9781fb;
+  --primary-4: #a18df9;
+  --primary-5: #F1EFFF;
+
 }
 
-@media (prefers-color-scheme: dark) {
+/* Global enhanced grey scrollbar styles */
+* {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #A0AEC0 #EDF2F7; /* Dark grey thumb on light grey track for Firefox */
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* Optional: for horizontal scrollbars */
+}
+
+*::-webkit-scrollbar-track {
+  background: #EDF2F7; /* Light grey track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #A0AEC0; /* Dark grey thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 2px solid #EDF2F7; /* Adds spacing around the thumb */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); /* Adds subtle inner shadow for depth */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #718096; /* Slightly darker grey on hover */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow on hover */
+}
+
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
