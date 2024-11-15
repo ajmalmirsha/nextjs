@@ -1,0 +1,54 @@
+{
+  "modules": [
+    {
+      "moduleId": "1",
+      "moduleTitle": "Introduction",
+      "lessons": [
+        {
+          "lessonId": "lesson-1",
+          "lessonTitle": "Mentor Introduction",
+          "duration": "5h 40m",
+          "active": true
+        },
+        {
+          "lessonId": "lesson-2",
+          "lessonTitle": "Mentor Introduction2",
+          "duration": "5h 40m"
+        }
+      ]
+    },
+    {
+      "moduleId": "2",
+      "moduleTitle": "Introduction",
+      "lessons": [
+        {
+          "lessonId": "lesson-2",
+          "lessonTitle": "Mentor Introduction",
+          "duration": "5h 40m"
+        }
+      ]
+    },
+    {
+      "moduleId": "3",
+      "moduleTitle": "Introduction",
+      "lessons": [
+        {
+          "lessonId": "lesson-3",
+          "lessonTitle": "Mentor Introduction",
+          "duration": "5h 40m"
+        }
+      ]
+    },
+    {
+      "moduleId": "4",
+      "moduleTitle": "Introduction",
+      "lessons": [
+        {
+          "lessonId": "lesson-4",
+          "lessonTitle": "Mentor Introduction",
+          "duration": "5h 40m"
+        }
+      ]
+    }
+  ]
+}
