@@ -1,5 +1,5 @@
-import PrevWatchBlock from "@/components/prevWatchBlock/PrevWatchBlock";
 import ECourseList from "./_components/course-list";
+import PrevWatchBlock from "./_components/prev-watch-block";
 
 const page = () => {
   return (

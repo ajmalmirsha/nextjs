@@ -1,7 +1,6 @@
 import { CirclePlay } from "lucide-react";
-import React from "react";
-import { TypographyLarge } from "../ui/TypographyLarge";
-import { TypographyMuted } from "../ui/TypographyMuted";
+import { TypographyLarge } from "@/components/ui/TypographyLarge";
+import { TypographyMuted } from "@/components/ui/TypographyMuted";
 
 type LessonPlayerCardType = {
   lesson: {

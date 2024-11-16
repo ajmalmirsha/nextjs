@@ -1,5 +1,5 @@
-import ModuleList from "@/components/moduleList/ModuleList";
 import CourseCard from "../_components/course-card";
+import ModuleList from "../_components/module-list";
 
 const page = () => {
   return (

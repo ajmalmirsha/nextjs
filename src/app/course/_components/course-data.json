@@ -1,100 +1,161 @@
 {
-    "courses": [
-      {
-        "id": "1",
-        "title": "Envato Mastery",
-        "teacher": {
-          "id": "t1",
-          "name": "Ms. Nina",
-          "profileImage": "https://avatar.iran.liara.run/public/1"
+  "sidebar": [
+    {
+      "groupName": "GENERAL",
+      "children": [
+        {
+          "title": "Dashboard",
+          "url": "#",
+          "icon": "Home"
         },
-        "duration": "4h 23m",
-        "progress": 79,
-        "stats": {
-          "completedLessons": 40,
-          "totalLessons": 52,
-          "skillLevel": "Intermediate",
-          "lastAccessed": "2024-11-10",
-          "upcomingSessions": 3,
-          "rating": 4.8
+        {
+          "title": "Schedule",
+          "url": "#",
+          "icon": "Inbox"
+        },
+        {
+          "title": "Message",
+          "url": "#",
+          "icon": "Calendar"
+        },
+        {
+          "title": "Payment",
+          "url": "#",
+          "icon": "Search"
+        },
+        {
+          "title": "Settings",
+          "url": "#",
+          "icon": "Settings"
         }
+      ]
+    },
+    {
+      "groupName": "COURSES",
+      "children": [
+        {
+          "title": "My Courses",
+          "url": "#",
+          "icon": "Home"
+        },
+        {
+          "title": "Discover",
+          "url": "#",
+          "icon": "Inbox"
+        }
+      ]
+    },
+    {
+      "groupName": "OTHER",
+      "children": [
+        {
+          "title": "Support",
+          "url": "#",
+          "icon": "Home"
+        },
+        {
+          "title": "Setting",
+          "url": "#",
+          "icon": "Inbox"
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "Envato Mastery",
+      "teacher": {
+        "id": "t1",
+        "name": "Ms. Nina",
+        "profileImage": "https://avatar.iran.liara.run/public/1"
       },
-      {
-        "id": "2",
-        "title": "Mastering Git and Vercel App",
-        "teacher": {
-          "id": "t2",
-          "name": "Mr. Patrick",
-          "profileImage": "https://avatar.iran.liara.run/public/2"
-        },
-        "duration": "6h 11m",
-        "progress": 43,
-        "stats": {
-          "completedLessons": 44,
-          "totalLessons": 101,
-          "skillLevel": "Advanced",
-          "lastAccessed": "2024-11-12",
-          "upcomingSessions": 5,
-          "rating": 4.6
-        }
-      },
-      {
-        "id": "3",
-        "title": "Design System Basic",
-        "teacher": {
-          "id": "t3",
-          "name": "Mr. Bryan",
-          "profileImage": "https://avatar.iran.liara.run/public/3"
-        },
-        "duration": "5h 40m",
-        "progress": 90,
-        "stats": {
-          "completedLessons": 68,
-          "totalLessons": 75,
-          "skillLevel": "Beginner",
-          "lastAccessed": "2024-11-13",
-          "upcomingSessions": 1,
-          "rating": 4.9
-        }
-      },
-      {
-        "id": "4",
-        "title": "Master Class: React JS and Tailwind CSS",
-        "teacher": {
-          "id": "t4",
-          "name": "Mr. Coles",
-          "profileImage": "https://avatar.iran.liara.run/public/4"
-        },
-        "duration": "9h 01m",
-        "progress": 100,
-        "stats": {
-          "completedLessons": 125,
-          "totalLessons": 125,
-          "skillLevel": "Advanced",
-          "lastAccessed": "2024-11-10",
-          "upcomingSessions": 0,
-          "rating": 5.0
-        }
-      },
-      {
-        "id": "5",
-        "title": "Web Security for Penetration Tester",
-        "teacher": {
-          "id": "t5",
-          "name": "Mr. Franky",
-          "profileImage": "https://avatar.iran.liara.run/public/5"
-        },
-        "duration": "5h 40m",
-        "progress": 30,
-        "stats": {
-          "completedLessons": 23,
-          "totalLessons": 75,
-          "skillLevel": "Intermediate",
-          "lastAccessed": "2024-11-08",
-          "upcomingSessions": 2,
-          "rating": 4.7
-        }
+      "duration": "4h 23m",
+      "progress": 79,
+      "stats": {
+        "completedLessons": 40,
+        "totalLessons": 52,
+        "skillLevel": "Intermediate",
+        "lastAccessed": "2024-11-10",
+        "upcomingSessions": 3,
+        "rating": 4.8
       }
-    ]
-  }
-
+    },
+    {
+      "id": "2",
+      "title": "Mastering Git and Vercel App",
+      "teacher": {
+        "id": "t2",
+        "name": "Mr. Patrick",
+        "profileImage": "https://avatar.iran.liara.run/public/2"
+      },
+      "duration": "6h 11m",
+      "progress": 43,
+      "stats": {
+        "completedLessons": 44,
+        "totalLessons": 101,
+        "skillLevel": "Advanced",
+        "lastAccessed": "2024-11-12",
+        "upcomingSessions": 5,
+        "rating": 4.6
+      }
+    },
+    {
+      "id": "3",
+      "title": "Design System Basic",
+      "teacher": {
+        "id": "t3",
+        "name": "Mr. Bryan",
+        "profileImage": "https://avatar.iran.liara.run/public/3"
+      },
+      "duration": "5h 40m",
+      "progress": 90,
+      "stats": {
+        "completedLessons": 68,
+        "totalLessons": 75,
+        "skillLevel": "Beginner",
+        "lastAccessed": "2024-11-13",
+        "upcomingSessions": 1,
+        "rating": 4.9
+      }
+    },
+    {
+      "id": "4",
+      "title": "Master Class: React JS and Tailwind CSS",
+      "teacher": {
+        "id": "t4",
+        "name": "Mr. Coles",
+        "profileImage": "https://avatar.iran.liara.run/public/4"
+      },
+      "duration": "9h 01m",
+      "progress": 100,
+      "stats": {
+        "completedLessons": 125,
+        "totalLessons": 125,
+        "skillLevel": "Advanced",
+        "lastAccessed": "2024-11-10",
+        "upcomingSessions": 0,
+        "rating": 5.0
+      }
+    },
+    {
+      "id": "5",
+      "title": "Web Security for Penetration Tester",
+      "teacher": {
+        "id": "t5",
+        "name": "Mr. Franky",
+        "profileImage": "https://avatar.iran.liara.run/public/5"
+      },
+      "duration": "5h 40m",
+      "progress": 30,
+      "stats": {
+        "completedLessons": 23,
+        "totalLessons": 75,
+        "skillLevel": "Intermediate",
+        "lastAccessed": "2024-11-08",
+        "upcomingSessions": 2,
+        "rating": 4.7
+      }
+    }
+  ]
+}

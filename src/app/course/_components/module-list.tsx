@@ -1,11 +1,11 @@
 import React from "react";
-import { TypographyMuted } from "../ui/TypographyMuted";
-import { Switch } from "../ui/switch";
-import data from "./data.json";
-import { Typography } from "../ui/Typography";
-import { ModuleCard } from "../ModuleCard/ModuleCard";
-import { Accordion } from "../ui/accordion";
-import { TypographyLarge } from "../ui/TypographyLarge";
+import { TypographyMuted } from "@/components/ui/TypographyMuted";
+import { Switch } from "@/components/ui/switch";
+import data from "./module-list-data.json";
+import { Typography } from "@/components/ui/Typography";
+import { Accordion } from "@/components/ui/accordion";
+import { TypographyLarge } from "@/components/ui/TypographyLarge";
+import { ModuleCard } from "./module-card";
 
 const ModuleList = () => {
   return (

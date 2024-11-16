@@ -3,9 +3,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { TypographyLarge } from "../ui/TypographyLarge";
-import { TypographyMuted } from "../ui/TypographyMuted";
-import LessonPlayerCard from "../lessonPlayerCard/LessonPlayerCard";
+import { TypographyLarge } from "@/components/ui/TypographyLarge";
+import { TypographyMuted } from "@/components/ui/TypographyMuted";
+import LessonPlayerCard from "./lesson-player-card";
 
 type ModuleCardType = {
   index: number;

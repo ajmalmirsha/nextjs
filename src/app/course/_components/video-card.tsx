@@ -1,7 +1,7 @@
 import React from "react";
-import { Skeleton } from "../ui/skeleton";
-import { TypographySmall } from "../ui/TypographySmall";
-import { TypographyMuted } from "../ui/TypographyMuted";
+import { Skeleton } from "@/components/ui/skeleton";
+import { TypographySmall } from "@/components/ui/TypographySmall";
+import { TypographyMuted } from "@/components/ui/TypographyMuted";
 
 const VideoCard = () => {
   return (
